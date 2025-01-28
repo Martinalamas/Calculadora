@@ -52,6 +52,22 @@ h2 {
     background-color: #ccc;
 }
 
+@media (max-width: 600px) {
+    .calculadora {
+        width: 250px;
+    }
+
+    .boton {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3em;
+    }
+
+    #pantalla {
+        font-size: 1.8em;
+    }
+}
+
 @media (max-width: 320px) {
     .calculadora {
         width: 180px;
